@@ -18,18 +18,15 @@ body {
   padding: 1rem;
   max-width: 350px;
   margin: 0 auto;
+  
 }
 
 .screen {
   width: 100%;
   font-size: 5rem;
   padding: 0.5rem;
-  background: linear-gradient(
-    165deg,
-    rgba(129, 199, 115, 1) 0%,
-    rgba(83, 177, 125, 1) 80%
-  );
-
+  background: linear-gradient(165deg, rgba(238,156,167,1) 0%,
+   rgba(255,221,225,1) 80%);
   color: #f7f6e7;
   border: none;
   height: 150px;
@@ -54,7 +51,7 @@ button:hover {
 }
 
 .btn-grey {
-  background: #48595c;
+  background: #2C2728;
   color: #f7f6e7;
 }
 .btn,
@@ -65,26 +62,27 @@ button:hover {
 }
 
 .btn-equal {
-  background: #48595c;
+  background:#C08F95;
   color: #f7f6e7;
-  border-radius: 0 0 0 5px;
+  border-radius: 0 0 5px 0px;
 }
 .btn-equal1 {
-  background: #48595c;
+  background: #2C2728;
   color: #f7f6e7;
 }
 .btn-equal2 {
-  background: #48595c;
+  background: #2C2728;
   color: #f7f6e7;
-  border-radius: 0 0 5px 0;
+  border-radius: 0 0 0px 5px;
 }
 .btn-clear {
   background: #f36453;
   color: white;
+   box-shadow: 49px 23px 85px -59px rgba(0,0,0,0.77);
 }
 .btn-yellow {
-  background: #2e3739;
-  color: #84ae87;
+  background: #4C4445;
+  color:#ffdde1;
   font-size: 3rem;
 }
 
